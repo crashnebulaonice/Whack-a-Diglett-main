@@ -200,7 +200,7 @@ function whack() {
   // TODO: Write your code here.
   updateScore();
   //audioHit.currentTime = 0;
-  //audioHit.play();
+  //audioHit.play("../assets/hit.mp3");
   return points;
 }
 
@@ -267,6 +267,7 @@ function stopGame() {
   return "game stopped";
 }
 
+
 // Please do not modify the code below.
 // Used for testing purposes.
 window.randomInteger = randomInteger;
@@ -286,3 +287,4 @@ window.time = time;
 window.setDuration = setDuration;
 window.toggleVisibility = toggleVisibility;
 window.setEventListeners = setEventListeners;
+
